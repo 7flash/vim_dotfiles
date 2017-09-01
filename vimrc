@@ -38,7 +38,7 @@ set wildignore+=*.pyc,*.o,*.class,*.lo,.git,vendor/*,node_modules/**,bower_compo
 set tags+=gems.tags
 set mouse=
 set backupcopy=yes " Setting backup copy preserves file inodes, which are needed for Docker file mounting
-set signcolumn=yes
+let g:gitgutter_sign_column_always = 1
 set complete-=t " Don't use tags for autocomplete
 
 if version >= 703
